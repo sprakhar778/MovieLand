@@ -1,6 +1,7 @@
 {
   "name": "movie_search1",
   "version": "0.1.0",
+  "homepage": "http://mywebsite.com/myapp",
   "private": true,
   "dependencies": {
     "@react-icons/all-files": "^4.1.0",

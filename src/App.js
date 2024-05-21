@@ -3,7 +3,7 @@ import './App.css';
 import { IoSearchSharp } from "react-icons/io5";
 import MovieCard from './Components/MovieCard';
 const App = ()=> {
-  const API_URL='http://www.omdbapi.com/?apikey=5ff1e744';
+  const API_URL='https://www.omdbapi.com/?apikey=5ff1e744';
   const [title,setTitle]=useState('');
   const [movies,setMovies]=useState([]); 
   const movieSearch = async(title)=>
